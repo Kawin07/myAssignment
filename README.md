@@ -31,6 +31,7 @@ A React Native mobile application built with Expo that displays user information
    npm run android    # For Android Emulator/Device
    npm run ios        # For iOS Emulator (MacOS only)
    npm run web        # For Web Preview
+   npm start          # For Expo Go in Android
    ```
 
 ## 📁 Project Structure
