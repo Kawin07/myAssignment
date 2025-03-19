@@ -5,7 +5,7 @@ A React Native mobile application built with Expo that displays user information
 
 ## 📋 Features
 - Display user details with enhanced styling.
-- Image selection from gallery using Expo Image Picker.
+- Fetching data of the user using api.
 - Modern UI design with styled components.
 
 ## 🚀 Installation & Setup
