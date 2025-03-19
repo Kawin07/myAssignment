@@ -1,13 +1,53 @@
-# User Info App
 
-A simple React Native app that fetches and displays user information from the Random Data API.
+# MyAssignment
 
-## Features
-- Fetches data for 80 users.
-- Displays user details (id, uid, password, first_name, last_name, username, email, avatar).
-- Navigate between users using "Previous" and "Next" buttons.
+A React Native mobile application built with Expo that displays user information in an enhanced card UI. This application demonstrates the use of components, navigation, and state management.
 
-## How to Run
-1. Clone the repository:
+## 📋 Features
+- Display user details with enhanced styling.
+- Image selection from gallery using Expo Image Picker.
+- Modern UI design with styled components.
+
+## 🚀 Installation & Setup
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/kawin07/myAssignment.git
+   ```
+   ```bash
+   cd myAssignment
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the Application**
+   ```bash
+   npm start
+   ```
+   or run on specific platforms:
+   ```bash
+   npm run android    # For Android Emulator/Device
+   npm run ios        # For iOS Emulator (MacOS only)
+   npm run web        # For Web Preview
+   ```
+
+## 📁 Project Structure
+```
+myAssignment/
+├── App.js
+├── components/        # Reusable components
+├── screens/           # Screen components
+├── utils/             # Utility functions
+├── assets/            # Image and other assets
+├── README.md
+├── package.json
+```
+
+## 🔑 Additional Notes
+- Ensure you have Expo CLI installed globally: `npm install -g expo-cli`.
+- Make sure to update the dependencies if prompted.
+
+## 📜 License
+This project is licensed under the MIT License.
